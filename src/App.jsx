@@ -21,15 +21,21 @@ function App() {
 
   return (
     <div className="container">
-      <Logo />
-      <Display />
-      <div className="buttons-container">
-       
-      </div>
-      <Numbers /> 
-      <Operators />
+     
       <div className="App">
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
+      <Logo />
+      <Display />
+
+        <div className="buttons-container">
+        <div className="button-group">
+          <Specials />
+          <Numbers /> 
+        </div>
+
+      </div>
+      <Operators />
+    
       </div>
     </div>
   );

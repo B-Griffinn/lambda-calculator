@@ -4,7 +4,7 @@ import "../../../App.css";
 const OperatorButton = (props) => {
   return (
     <>
-      <button className="btn btn-lite">{props.character}</button>
+      <button className="btn btn-light">{props.character}</button>
     </>
   );
 };

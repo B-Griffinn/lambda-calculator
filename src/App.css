@@ -1,12 +1,44 @@
 /* Add CSS for our components */
 
 .container {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background: skyblue;
     height: 40rem;
 }
 
-.display-container {
+.btn-wrap {
     height: 10rem;
+    background: grey; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    font-size: 1.2rem;
+    padding-right: 1rem;
+    height: 1rem;
     background: grey;
+    border-radius: 7rem;
+    margin-top: 8rem;
+}
+
+.btn {
+ 
+}
+
+.buttons-container{
+    border: 1px solid limegreen;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.special-buttons{
+    border: 1px solid purple;
+    width: 100%;
+}
+
+.operators-container {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }

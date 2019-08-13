@@ -6,7 +6,7 @@ const NumberButton = (props) => {
   if(props.number !== 0) {
     return (
     <>
-      <button className="btn dark-blue">{props.number}</button>
+      <button className="btn dark-dark">{props.number}</button>
     </>
    );
   } else {
