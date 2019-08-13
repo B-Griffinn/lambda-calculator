@@ -1,0 +1,12 @@
+/* Add CSS for our components */
+
+.container {
+    border: 1px solid red;
+    background: skyblue;
+    height: 40rem;
+}
+
+.display-container {
+    height: 10rem;
+    background: grey;
+}

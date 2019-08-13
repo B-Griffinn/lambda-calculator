@@ -1,11 +1,16 @@
-import React from "react";
+import React, {useState} from "react";
 
 //import any components needed
-
+import "../../../App.css";
 //Import your array data to from the provided data file
+import data from "../../../../src/data";
 
-const Specials = () => {
+
+const Numbers = () => {
   // STEP 2 - add the imported data to state
+  console.log(data.numbers);
+  const [numbers, setNumbers] = useState(0);
+  console.log(numbers);
 
   return (
     <div>
@@ -15,3 +20,5 @@ const Specials = () => {
     </div>
   );
 };
+
+export default Numbers;
