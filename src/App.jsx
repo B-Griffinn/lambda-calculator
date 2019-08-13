@@ -24,9 +24,10 @@ function App() {
       <Logo />
       <Display />
       <div className="buttons-container">
-        {/* <Operators /> */}
+       
       </div>
-      <Numbers />
+      <Numbers /> 
+      <Operators />
       <div className="App">
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
       </div>

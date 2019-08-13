@@ -1,10 +1,20 @@
 import React from "react";
-import "./App.css";
+import "../../../App.css";
 
-const NumberButton = () => {
-  return (
+const NumberButton = (props) => {
+
+  if(props.number !== 0) {
+    return (
     <>
-      {/* Display a button element rendering the data being passed down from the parent container on props */}
+      <button className="btn dark-blue">{props.number}</button>
     </>
-  );
+   );
+  } else {
+    return (
+      <>
+      <button className="btn-oval btn-dark">{props.number}</button>
+      </>
+    )
+  }
 };
+export default NumberButton;
